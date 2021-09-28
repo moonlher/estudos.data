@@ -64,7 +64,8 @@ select * from pessoa;
 update pessoa set nome = 'Paulo Augusto' where codpessoa = 1;
 update pessoa set sobrenome = 'Lima Duarte'   where sobrenome = 'Duarte'; 
 
--- para excluir (where é importante) 
+-- para excluir (where é importante, demarcar onde) 
+
 delete from pessoa where codpessoa = 1;
 
 select * from documentos;
